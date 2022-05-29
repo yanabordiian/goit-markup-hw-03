@@ -36,13 +36,13 @@
     .container {
         display:flex;
         flex-direction:row;
-        width: 1200px;
+        width: 1200px; 
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
     }
     
-    
+    .section {padding-top: 94px;padding-bottom: 94px;}
     .header {
         display:flex; 
         justify-content: space-around;
@@ -58,8 +58,10 @@
         font-size: 26px;
         line-height: 1.19;
         color: #212121;
-        padding-right: 93px;
-        align-items: center;}
+        margin-right: 93px;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom:25px ;}
     
     .site-nav{
     list-style:none;
@@ -69,8 +71,8 @@
     display:flex; 
     align-items: center;
     justify-content:space-around;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
     }
      
@@ -84,7 +86,7 @@
         color: #757575;
         display:flex;
         align-items: center; 
-        
+        margin-left: auto;
     }
     
     .hero {
@@ -103,10 +105,9 @@
       
     }
     .hero-section {
-        padding-top: 184px;
-        padding-bottom: 184px;
-        background-color:  #2F303A;
-        margin-bottom: 94px;}
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-color:  #2F303A;}
     .hero-header {
         font-weight: 900;
         font-size: 44px;
@@ -117,7 +118,7 @@
         color: #FFFFFF;
         display:flex; 
         max-width: 696px;
-    padding-bottom: 50px;
+        margin-bottom: 50px;
     }
     
     .button {
