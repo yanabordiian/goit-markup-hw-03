@@ -34,19 +34,15 @@
     color: #212121;}
     
     .container {
-        display:flex;
-        flex-direction:row;
         width: 1200px; 
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
     }
-    
     .section {padding-top: 94px;padding-bottom: 94px;}
     .header {
-        display:flex; 
+        display:flex;
         justify-content: space-around;
-        max-height:80px ;
         align-items: center;
     }
     .logo-blue {color: #2196F3;}
