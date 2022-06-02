@@ -13,6 +13,7 @@
     padding:0;
     list-style:none;
     box-sizing:border-box;
+    text-decoration: none;
     }
     
     h1,
@@ -23,7 +24,7 @@
     h6,
     p { margin: 0;}
      ul, ol {margin:0;padding-left:0;}
-     li {margin-right: 30px;}
+     
     button {cursor:pointer;}
     body {
     margin:0 auto; 
@@ -41,11 +42,6 @@
         margin: 0 auto;
     }
     .section {padding-top: 94px;padding-bottom: 94px;}
-    .header {
-        display:flex;
-        justify-content: space-around;
-        align-items: center;
-    }
     .logo-blue {color: #2196F3;}
     .logo{
         display:flex;
@@ -59,7 +55,7 @@
         align-items: center;
         padding-top: 24px;
         padding-bottom:25px ;}
-    
+.cheader {display: flex;}
     .site-nav{
     list-style:none;
     font-weight: 500;
@@ -70,22 +66,21 @@
     justify-content:space-around;
     padding-top: 32px;
     padding-bottom: 32px;
-    
     }
-     
-    .link {text-decoration: none; list-style:none; color: #212121;margin-right: 50px;}
+    .list {color: black;}
+    .contact {color: #757575;}
+    .link {text-decoration: none;list-style:none; margin-right: 50px;}
     .link:hover, .link:focus{color:  #2196F3}
     .communication {
         text-decoration:none; list-style:none;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
-        color: #757575;
         display:flex;
         align-items: center; 
         margin-left: auto;
     }
-    
+
     .hero {
     background: #2F303A;
     color: #FFFFFF;
@@ -94,13 +89,13 @@
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
     display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     }
+    .order {max-height: 50px; max-width: 200px;}
+
     .hero-section {
         padding-top: 200px;
         padding-bottom: 200px;
@@ -119,9 +114,9 @@
     }
     
     .button {
-        font-weight: 700;
+        padding: 10px 32px; 
         font-size: 16px;
-        line-height: 1.87;
+        line-height: 1.88;
         display: flex;
         align-items: center;
         text-align: center;
@@ -129,7 +124,7 @@
         color: #FFFFFF;
         background: #2196F3;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
-        border-radius: 4px;}
+        border-radius: 4px;cursor:pointer;}
     .button:hover {
         font-weight: 700;
         font-size: 16px;
@@ -139,7 +134,8 @@
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
-        background: #188CE8;}
+        background: #188CE8;
+        }
     
     .main { list-style: none; background:#FFFFFF; 
         display:flex;
@@ -158,10 +154,7 @@
         letter-spacing: 0.03em;
         color: #757575; 
         display:flex;
-        margin-right: 30px; 
-        margin-bottom: 179px;}
-    
-    
+        margin-right: 30px;}
     
     .work-title {
         font-weight: 700;
@@ -169,15 +162,16 @@
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121; display: flex; justify-content: center;padding-bottom: 50px;}
+        color: #212121;padding-bottom: 50px;}
     
     
     .workphoto {padding-right: 30px; display: flex;flex-direction: row;}
     
-    
+    .work {display: flex;}
     
     
     .team {background: #F5F4FA;}
+    .people {padding-right: 30px;}
     .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -200,7 +194,8 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;padding-top: 10px;padding-bottom:  33px;background-color: #FFFFFF;}
+    color: #757575;padding-top: 10px;padding-bottom:  33px;background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.2);}
     .footer {background:#2F303A; padding-bottom: 60px; padding-left: 60px;padding-top: 60px;}
     
     .logo-fw {color: #2196F3;}
@@ -244,11 +239,10 @@
     color: #212121;}
     
     .portfolio-type {
-    font-weight: 400;
+    color: #757575;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: #757575;}
+    letter-spacing: 0.03em;}
     
     button {
        
@@ -270,8 +264,6 @@
         box-sizing: border-box;
         background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
         margin: 0em;
-        padding: 1px 6px;
-        border-width: 2px;
         border-style: outset;
         border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
         border-image: initial;
@@ -282,9 +274,10 @@
     line-height:1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121; display: flex; justify-content: center; align-items: center;}
+    color: #212121; display: flex; justify-content: center; align-items: center;
+padding-right: 0px;}
     
-    .all-button {list-style: none;display: flex;padding-top: 94px; justify-content: center; padding-bottom: 50px;}
+    .all-button {list-style: none;display: flex; justify-content: center; margin-bottom: 50px;}
     .button1 {
         border:0;
         font-weight: 500;
@@ -325,8 +318,7 @@
         border-radius: 4px;}
     
       nav {display: flex; align-items: center;}  
-          
-    .portfolio-list {display: flex;flex-wrap: wrap;min-height: 1170px;}    
-    .portfolio-photo1 {padding-right: 30px;}
-    .portfolio-type {padding-bottom: 60px;}
     
+.portfolio-list {display:flex; flex-wrap:wrap; height: 1272px; flex-direction: column; width: 1170px;}
+.portfolio-list:nth-child(3n + 1) {padding-right: 0px;}
+.more {padding-left: 24px;padding-right:24px ;padding-top: 20px;padding-bottom: 20px;}
