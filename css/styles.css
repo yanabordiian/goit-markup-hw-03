@@ -28,12 +28,12 @@
     button {cursor:pointer;}
     body {
     margin:0 auto; 
-    
     font-family:"Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: #212121;}
+
     .section {padding-top: 94px;padding-bottom: 94px;}
     .container {
         width: 1200px; 
@@ -56,6 +56,7 @@
         padding-top: 24px;
         padding-bottom:25px ;}
 .cheader {display: flex;}
+.header {border-bottom: 1px solid #ECECEC;}
     .site-nav{
     list-style:none;
     font-weight: 500;
@@ -109,7 +110,7 @@
         color: #FFFFFF;
         display:flex; 
         max-width: 696px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     
     .button {
@@ -125,7 +126,7 @@
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
         border-radius: 4px;cursor:pointer;}
     .button:hover {
-        font-weight: 700;
+        padding: 10px 32px; 
         font-size: 16px;
         line-height: 1.87;
         display: flex;
@@ -145,15 +146,14 @@
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #212121;padding-bottom: 10px;}
+        color: #212121;margin-bottom: 10px;}
     .main-text {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575; 
-        display:flex;
-        margin-right: 30px;}
+        display:flex;}
     
     .work-title {
         font-weight: 700;
@@ -161,16 +161,16 @@
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;padding-bottom: 50px;}
+        color: #212121;margin-bottom: 50px;}
     
-    
-    .workphoto {margin-right: 30px; display: flex;}
+    .inform { margin-right: 30px;}
+    .workphoto {display: block;max-width: 100%;height: auto;margin-right: 30px;}
     
     .work {display: flex;}
     
     
     .team {background: #F5F4FA;}
-    .people {padding-right: 30px;}
+    .people {margin-right: 30px;}
     .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -196,29 +196,32 @@
     color: #757575;padding-top: 10px;padding-bottom:  33px;background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.2);}
     .images {display: block; max-width: 100%; height:auto;}
-    .footer {background:#2F303A; padding-bottom: 60px; padding-left: 60px;padding-top: 60px;}
+    .footer {background:#2F303A; padding-bottom: 60px; padding-top: 60px;}
     
-    .logo-fw {color: #2196F3;margin-bottom: 20px;}
+    .logo-fw {color: #2196F3;}
     .logo-footer {text-decoration: none;
         font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        color: #FFFFFF;
-        
-    }
+        color: #FFFFFF;}
     .address {
+  
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;}
-   
+
+
 
     
-    .footer-address {list-style: none;padding-bottom: 9px;}
+    .footer-address {list-style: none;}
+  
     .footer-info {
+    font-family: 'Roboto'; 
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -226,11 +229,15 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+    margin-top: 9px;
+    display:block;
     }
-    .footer-info:not:(:last-child) {margin-bottom: 9px;}
     .footer .footer-info:hover,
     .footer .footer-info:focus {
-      color: var(--color-accent);}
+      color:  #2196F3;}
+
+
     .portfolio {list-style: none; display: block; padding-bottom: 30px;}
     .portfolio-title {
     font-weight: 700;
@@ -321,7 +328,9 @@ padding-right: 0px;}
     
 .portfolio-list {display:flex; flex-wrap:wrap; gap:30px;}
 .portfolio-list:nth-child(3n + 1) {padding-right: 0px;}
-.more {padding-left: 24px;padding-right:24px;
+.more {padding-left: 24px;padding-right:24px; padding-top: 20px; padding-bottom: 20px;
     border-left:1px solid #EEEEEE; 
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;}
+    .city {padding-top: 20px;}
+   
