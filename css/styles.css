@@ -164,13 +164,15 @@
         color: #212121;margin-bottom: 50px;}
     
     .inform { margin-right: 30px;}
-    .workphoto {display: block;max-width: 100%;height: auto;margin-right: 30px;}
+    .photowork {margin-right: 30px;}
+    .workphoto {display: block;max-width: 100%;height: auto;}
     
     .work {display: flex;}
     
     
     .team {background: #F5F4FA;}
-    .people {margin-right: 30px;}
+    .people {margin-right: 30px;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;background-color: #FFFFFF;}
     .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -186,25 +188,27 @@
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121; padding-top: 30px;background-color: #FFFFFF;}
+        color: #212121; margin-top: 30px;background-color: #FFFFFF;}
     .team-job {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;padding-top: 10px;padding-bottom:  33px;background-color: #FFFFFF;
+    color: #757575;margin-top: 10px;margin-bottom:  33px;background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.2);}
     .images {display: block; max-width: 100%; height:auto;}
     .footer {background:#2F303A; padding-bottom: 60px; padding-top: 60px;}
     
     .logo-fw {color: #2196F3;}
-    .logo-footer {text-decoration: none;
+    .logo-footer {
+        display: block;
+        text-decoration: none;
         font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        color: #FFFFFF;}
+        color: #FFFFFF;margin-bottom: 20px;}
     .address {
   
     font-family: 'Roboto';
@@ -238,13 +242,14 @@
       color:  #2196F3;}
 
 
-    .portfolio {list-style: none; display: block; padding-bottom: 30px;}
+    
     .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;}
+    color: #212121;
+margin-bottom: 4px;}
     
     .portfolio-type {
     color: #757575;
