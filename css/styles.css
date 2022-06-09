@@ -330,12 +330,12 @@ padding-right: 0px;}
         border-radius: 4px;}
     
       nav {display: flex; align-items: center;}  
-    
+ .posters {display: block; max-width:  100%; height: auto;}   
 .portfolio-list {display:flex; flex-wrap:wrap; gap:30px;}
 .portfolio-list:nth-child(3n + 1) {padding-right: 0px;}
 .more {padding-left: 24px;padding-right:24px; padding-top: 20px; padding-bottom: 20px;
     border-left:1px solid #EEEEEE; 
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;}
-    .city {padding-top: 20px;}
+   
    
